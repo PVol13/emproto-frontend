@@ -2,11 +2,16 @@ import React, { PureComponent } from 'react'
 import './forgotpwd.css' 
 import './createpwd.css'
 import Logo from './logo.png'
+import Image from './g10.png'
 
 export class Createpwd extends PureComponent {
   render() {
     return (
       <div>
+         <div className='split left-split'>
+            <img className="login-banner" 
+            src={Image} alt=""/>
+        </div>
         <div className="split right-split">
             <div className='forgot-pwd-form'>
                 <img className="logo" src= {Logo} alt=""/>

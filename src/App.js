@@ -1,10 +1,12 @@
 import React from 'react'
-import Forgotpwd from './pages/login/Forgotpwd.jsx'
-//import Createpwd from './pages/login/Createpwd.jsx'
+//import Forgotpwd from './pages/forgot_pwd/Forgotpwd.jsx'
+import Createpwd from './pages/forgot_pwd/Createpwd.jsx'
 
 const App = () => {
   return (
-    <Forgotpwd/>
+
+    
+    <Createpwd/>
   )
 }
 
